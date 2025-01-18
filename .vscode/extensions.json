@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "xaver.clang-format",
+        "msedge-dev.gnls"
+    ]
+}

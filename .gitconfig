@@ -1,0 +1,6 @@
+[core]
+autocrlf = input
+ignorecase = false
+
+[commit]
+gpgsign = true

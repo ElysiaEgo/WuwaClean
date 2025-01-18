@@ -1,0 +1,20 @@
+{
+  "clangd.arguments": [
+    // 在后台自动分析文件（基于complie_commands)
+    "--background-index",
+    // 标记compelie_commands.json文件的目录位置
+    "--compile-commands-dir=out/build/x64-debug",
+    // clang-tidy功能
+    "--clang-tidy",
+    // 全局补全（会自动补充头文件）
+    "--all-scopes-completion",
+    // 详细补全
+    "--completion-style=detailed",
+    // 补充头文件
+    "--header-insertion=iwyu",
+    // pch优化的位置
+    "--pch-storage=disk",
+  ],
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "editor.formatOnSave": true,
+}
